@@ -18,6 +18,7 @@ class PostTableViewCell: UITableViewCell {
     private let titleLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 16)
+        label.numberOfLines = 0
         return label
     }()
     
